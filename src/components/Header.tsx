@@ -18,11 +18,10 @@ const Header = () => {
   const location = useLocation();
 
   const navigation = [
-    { name: 'Products', href: '/services' },
-    { name: 'Business Model', href: '/business-model' },
-    { name: 'Case Studies', href: '/case-studies' },
     { name: 'About', href: '/about' },
     { name: 'Founder\'s Letter', href: '/founders-letter' },
+    { name: 'Products', href: '/services' },
+    { name: 'Business Model', href: '/business-model' },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
   ];
