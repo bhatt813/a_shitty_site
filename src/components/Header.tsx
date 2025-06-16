@@ -3,14 +3,13 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 const HelixLogo = () => (
-  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-    {/* Outer triangle pointing right */}
-    <path d="M8 6L24 16L8 26V6Z" fill="currentColor"/>
-    {/* Inner triangle pointing left */}
-    <path d="M24 10L12 16L24 22V10Z" fill="currentColor" fillOpacity="0.7"/>
-    {/* Small triangle accent */}
-    <path d="M16 12L20 16L16 20V12Z" fill="currentColor" fillOpacity="0.4"/>
-  </svg>
+  <img
+    src="https://tinypic.host/images/2025/06/16/helixhubs-logo-website-header.png"
+    alt="Helix Hubs Logo"
+    width={160}
+    height="auto"
+    style={{ display: 'block' }}
+  />
 );
 
 const Header = () => {
