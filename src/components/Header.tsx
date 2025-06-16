@@ -4,7 +4,7 @@ import { Menu, X } from 'lucide-react';
 
 const HelixLogo = () => (
   <img
-    src="https://tinypic.host/images/2025/06/16/helixhubs-logo-website-header.png"
+    src="https://tinypic.host/images/2025/06/16/white-emblem.png"
     alt="Helix Hubs Logo"
     width={160}
     height="auto"
